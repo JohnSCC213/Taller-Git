@@ -1,0 +1,52 @@
+1 Objetivo
+El objetivo de este taller es que los alumnos se familiaricen con los conceptos
+b ́asicos de Git y GitHub, aprendan a trabajar con repositorios, ramas y commits,
+y practiquen la colaboraci ́on en un proyecto compartido.
+Posdata: Por favor les pido que sean muy concientes de cada comando que
+ingresen, no metan comandos por hacerlo, porque les van a salir errores por mal
+uso de los mismos, siempre hagan todo de forma conciente. No se preocupen
+por la nota, solo atrevanse, aprendan y sigan dandole de forma cosntante
+2 Duraci ́on
+Duraci ́on: 2- horas.
+3 Instrucciones
+A lo largo de este taller, deber ́as seguir los pasos indicados para completar las
+
+tareas pr ́acticas en Git y GitHub. Al finalizar, habr ́as creado un repositorio, tra-
+bajado con ramas, colaborado con compa ̃neros y realizado operaciones b ́asicas
+
+como commits y merges.
+4 Parte 1: Configuraci ́on Inicial de Git
+4.1 Instalaci ́on de Git (Si no lo tienes instalado):
+• Descarga e instala Git desde https://git-scm.com/.
+• Verifica la instalaci ́on abriendo la terminal o consola y escribiendo:
+git -- version
+
+1
+
+4.2 Configura tu nombre y correo en Git:
+Ejecuta los siguientes comandos para identificarte en Git:
+git config -- global user . name "Tu Nombre "
+git config -- global user . email "tu - email@ejemplo .com"
+5 Parte 2: Crear un Repositorio en GitHub y
+Clonarlo
+5.1 Crear un repositorio en GitHub:
+• Ingresa a GitHub y crea un nuevo repositorio. Ll ́amalo taller-git.
+• Selecciona la opci ́on "Iniciar este repositorio con un README" para
+crear el archivo README autom ́aticamente.
+5.2 Clonar el repositorio:
+Copia el enlace del repositorio en GitHub. En tu terminal, ejecuta el siguiente
+comando para clonar el repositorio localmente:
+git clone https :// github . com / tu - usuario / taller -git.git
+6 Parte 3: Trabajar con Branches (Ramas)
+6.1 Crear una nueva rama:
+Una vez clonado el repositorio, crea una nueva rama llamada mi-rama:
+git checkout -b mi - rama
+6.2 Realizar cambios:
+Crea un archivo llamado mi-archivo.txt en el repositorio local. Escribe algo
+dentro del archivo, por ejemplo, una breve descripci ́on de lo que has aprendido
+hasta ahora.
+6.3 Agregar los cambios al  ́area de preparaci ́on y hacer
+commit:
+A ̃nade el archivo a la ”staging area” y realiza un commit:
+git add mi - archivo . txt
+git commit -m " Agregando mi archivo de p r c t i c a "
